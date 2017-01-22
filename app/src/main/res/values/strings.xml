@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_id">1767526680177700</string>
+    <string name="app_name">Jauntrip</string>
+    <string name="title_activity_welcome">Home Screen</string>
+    <string name="skip">Skip to login</string>
+    <string name="start">GOT IT</string>
+
+    <string name="slide_1_title">Welcome to Jauntrip!</string>
+    <string name="slide_1_desc">You can strat a trip with your friends!</string>
+
+    <string name="slide_2_title">Welcome to Jauntrip!</string>
+    <string name="slide_2_desc">You can strat a trip with your friends!</string>
+
+    <string name="slide_3_title">Welcome to Jauntrip!</string>
+    <string name="slide_3_desc">You can strat a trip with your friends!</string>
+
+    <string name="slide_4_title">Welcome to Jauntrip!</string>
+    <string name="slide_4_desc">You can strat a trip with your friends!</string>
+
+    <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
+    <string name="play_again">Play Again</string>
+
+    <string name="transition_name_name">transition:NAME</string>
+
+</resources>

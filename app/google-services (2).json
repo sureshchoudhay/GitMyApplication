@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "986629330166",
+    "project_id": "jauntrip-151212"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:986629330166:android:30f1598399210d7c",
+        "android_client_info": {
+          "package_name": "com.example.kalmadi.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "986629330166-vebftao52nhi8hls6ha8s83et45niilr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.kalmadi.myapplication",
+            "certificate_hash": "CA31DF134CA5BD42EEAC07702DEF4C5934B841E8"
+          }
+        },
+        {
+          "client_id": "986629330166-3d2cp3h0fnb57pgacntfahkdr5a0ji01.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAa0qfR-yIrV3N6pG77w5g869Q8uasMtHg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

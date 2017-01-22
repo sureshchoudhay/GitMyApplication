@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:id="@+id/fagmt2"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <TextView
+            android:layout_centerHorizontal="true"
+            android:layout_above="@+id/hftxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:textStyle="bold"
+            android:text="Please enter 8-digit verification code sent to"/>
+        <TextView
+            android:layout_centerHorizontal="true"
+            android:layout_above="@+id/edtxt"
+            android:id="@+id/hftxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+91-9738281372"
+            android:layout_marginBottom="10dp"/>
+        <EditText
+            android:id="@+id/edtxt"
+            android:layout_centerInParent="true"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="phone"
+            android:paddingLeft="80dp"
+            android:ems="3"
+            android:textSize="50dp"
+            android:textCursorDrawable="@null"
+            android:breakStrategy="high_quality"
+            android:backgroundTint="#808080"
+            android:cursorVisible="true"
+            android:layout_marginLeft="7dp"/>
+
+            <TextView
+                android:layout_marginLeft="100dp"
+                android:layout_above="@+id/socl_btn_lyt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Resend OTP"
+                android:layout_marginBottom="175dp"/>
+            <TextView
+                android:layout_marginBottom="175dp"
+                android:layout_marginLeft="180dp"
+                android:layout_above="@+id/socl_btn_lyt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="|"/>
+            <TextView
+                android:layout_marginBottom="175dp"
+                android:layout_marginLeft="189dp"
+                android:layout_above="@+id/socl_btn_lyt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="OTP on Call"/>
+
+        <Button
+            android:id="@+id/socl_btn_lyt"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_centerHorizontal="true"
+            android:text="Submit OTP"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/buttonfile"
+            android:layout_marginBottom="30dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"/>
+
+
+    </RelativeLayout>
+</RelativeLayout>-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:id="@+id/fagmt2"
+    android:layout_height="match_parent"
+    android:background="@drawable/welcomeslide_2">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#90000000">
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="154dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/gradientfile"/>
+    <Button
+        android:id="@+id/socl_btn_lyt"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_centerHorizontal="true"
+        android:text="Get OTP"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/editextfile"
+        android:layout_marginBottom="30dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:textCursorDrawable="@null"
+        android:background="@drawable/editextfile"
+        android:ems="3"
+        android:textColorHint="#FFFFFF"
+        android:hint="Mobile Number"
+        android:inputType="phone"
+        android:layout_marginBottom="15dp"
+        android:layout_above="@+id/socl_btn_lyt"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:paddingLeft="10dp">
+    </EditText>
+
+</RelativeLayout>
+</RelativeLayout>

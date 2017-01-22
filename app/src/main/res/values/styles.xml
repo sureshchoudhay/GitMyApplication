@@ -1,0 +1,36 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+    <style name="google_style">
+        <item name="android:layout_width">@dimen/google_width</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:layout_marginTop">@dimen/google_magintop</item>
+    </style>
+
+    <style name="facebook_style">
+        <item name="android:layout_width">@dimen/facebook_width</item>
+        <item name="android:layout_height">@dimen/facebook_height</item>
+        <item name="android:layout_marginLeft">@dimen/facebook_maginleft</item>
+        <item name="android:layout_marginTop">@dimen/facebook_magintop</item>
+    </style>
+    <style name="text_style">
+         <item name="android:layout_width">fill_parent</item>
+         <item name="android:layout_height">wrap_content</item>0
+         <item name="android:textStyle">bold</item>
+         <item name="android:layout_marginTop">@dimen/text_magintop</item>
+         <item name="android:layout_marginLeft">@dimen/text_marginleft</item>
+    </style>
+
+</resources>
