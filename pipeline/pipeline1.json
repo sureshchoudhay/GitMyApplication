@@ -41,8 +41,8 @@
 									"type": "String"
 								},
 								"sink": {
-									"type": "String",
-									"ordinal": 1
+									"name": "zltqrta",
+									"type": "String"
 								}
 							},
 							{
@@ -51,8 +51,8 @@
 									"type": "String"
 								},
 								"sink": {
-									"type": "String",
-									"ordinal": 2
+									"name": "lddlxcqctkzcwhj",
+									"type": "String"
 								}
 							}
 						]
