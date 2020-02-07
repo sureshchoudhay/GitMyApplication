@@ -1,0 +1,22 @@
+{
+	"name": "datalakedata",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "HGCDataLakeStorge",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"folderPath": "oracle_data",
+				"fileSystem": "hgccontainer"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}
