@@ -1,0 +1,16 @@
+{
+	"name": "OracleDataset",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "HGCTestOracle",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "OracleTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "suresh",
+			"table": "COUNTRY_DETAILS"
+		}
+	}
+}
